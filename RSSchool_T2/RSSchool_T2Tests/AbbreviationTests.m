@@ -2,7 +2,7 @@
 #import "AbbreviationMaker.h"
 
 @interface AbbreviationTests : XCTestCase
-@property (nonatomic) AbbreviationMaker *abbreviationMaker;
+@property (nonatomic, assign) AbbreviationMaker *abbreviationMaker;
 @end
 
 @implementation AbbreviationTests
